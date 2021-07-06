@@ -10,10 +10,7 @@ function results = runTests(testsPath)
     suite = TestSuite.fromFolder(testsPath, ...
                                  'IncludingSubfolders', true);
     
-    % Build the runner
-    runner = TestRunner.withTextOutput;
-    
     % Run the tests
-    results = runner.run(suite);
+    results = run(suite);
     
 end
