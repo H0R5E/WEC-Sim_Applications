@@ -1,7 +1,7 @@
 version: "1"
 rules:
-  - base: master
-    upstream: WEC-Sim:master
+  - base: main
+    upstream: WEC-Sim:main
     mergeMethod: hardreset
   - base: dev
     upstream: WEC-Sim:dev
